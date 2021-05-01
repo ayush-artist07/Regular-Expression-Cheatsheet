@@ -1,4 +1,5 @@
 
+
 Regular Expression CheatSheet
 
 .       - Any Character except new Line
@@ -9,6 +10,12 @@ Regular Expression CheatSheet
 \s      - WhiteSpace(space, tab, newline)
 \S      - Not a WhiteSpace
 
+Meta Characters need to be escaped (these are like reserved keywords)
+if used as such they convey someother meaning so to use them we need to use \ before them
+
+.[ { ( ) \ ^ $ | } ] ? * +
+
+but in case of [] we can use them without \
 
 \b     - Word Boundary
 \b     - Not a Word Boundary
@@ -17,4 +24,16 @@ $      - End of a String
 
 []     - Matches Character in  Brackets
 [^]    - Matches Character not in Brackets
-|      - Either 
+|      - Either or
+()     - Group
+
+Quantifiers:
+
+*      - 0 or More
++      - 1 or More
+?      - 0 or One
+{3}    - Exact Number
+{3,4}  - Range of Number(Minimum,Maximum)
+
+Didn't Get Something Don't Worry follow below link
+https://www.youtube.com/watch?v=sa-TUpSx1JA
