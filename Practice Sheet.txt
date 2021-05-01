@@ -1,0 +1,34 @@
+Practice Regular Expression using pattern given below-
+
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+123456789
+
+cat
+bat
+mat
+rat
+
+Meta Characters need to be escaped
+.[ { ( ) \ ^ $ | } ] ? * +
+
+223-457-8901
+790.567.8901
+224*323*1234
+900.123.4567
+800.123.4567
+
+
+ayushForce123@gmail.com
+as12ps@gmail.com
+
+CoreyMSchafer@gmail.com
+corey.schafer@university.edu
+corey-121-schafer@my-work.net
+
+Mr. Ayush
+Mr. Naredndra
+Ms Saroj
+Mrs. Sarika
+Mr T
